@@ -122,6 +122,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+
+/* SERVICES */
+.services{
+  text-align: center;
+}
+.services p{
+  margin-top: 15px;
+}
+.content{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.carteGauche{
+  display: flex;
+  flex-direction: column;
+}
+.carteDroite{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.carte{
+  border-radius: 10% 10%;
+  height: 200px;
+  width: 180px;
+}
+.carte img{
+  margin-top: 20px;
+}
+.carte1{
+  background: #FFFCF5;
+}
+.carte2{
+  background: #FFF7FC;
+  margin-top: 10px;
+}
+.carte3{
+  background: #FFF8F5;
+}
+.carte4{
+  background: #F5F9FC;
+  margin-top: 10px;
+}
+.sectionServicesIllustration{
+  max-width: 300px;
+  margin-left: 50px;
+}
+=======
 * {
   box-sizing: border-box;
 }
