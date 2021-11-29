@@ -122,3 +122,69 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  font-family: 'Nunito Sans', sans-serif;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.column {
+  flex-direction: column;
+}
+.t-center {
+  text-align: center;
+}
+.main-container {
+  width: 1280px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: #0b1460;
+}
+.secondary-color {
+  color: #2667ff;
+}
+.tertiary-color {
+  color: #707185;
+}
+footer p,
+footer a {
+  margin-bottom: 16px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.copyright {
+  background-color: #f5f9fc;
+  padding: 20px 0 20px 0;
+  margin: 20px 0 40px 0;
+}
+h4 {
+  margin-bottom: 24px;
+}
+h5 {
+  font-size: 20px;
+}
