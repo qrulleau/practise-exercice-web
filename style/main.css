@@ -176,11 +176,11 @@ table {
 }
 =======
 * {
-  font-family: 'Nunito Sans', sans-serif;
   box-sizing: border-box;
 }
 body {
   background-color: #ffffff;
+  font-family: 'Nunito Sans', sans-serif;
 }
 h1,
 h2,
@@ -209,6 +209,9 @@ a {
 .justify-start {
   justify-content: flex-start;
 }
+.justify-center {
+  justify-content: center;
+}
 .column {
   flex-direction: column;
 }
@@ -236,6 +239,39 @@ a {
 }
 .green {
   color: #07f6bd;
+}
+select {
+  width: 100%;
+}
+form button {
+  width: 100%;
+  padding: 8px 0;
+}
+.form {
+  width: 424px;
+  padding: 54px 38px;
+  background-color: white;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+.form h3 {
+  font-size: 28px;
+}
+.form p {
+  margin: 12px 0 28px 0;
+}
+.form input,
+select {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  background-color: #f0f4ff;
+  margin-bottom: 12px;
+}
+.background-blue {
+  background-color: #2667ff;
+  background-image: url(/asset/home/bg-2.png);
+  padding: 100px 0;
 }
 button {
   color: white;
@@ -294,4 +330,19 @@ h5 {
 .social a {
   margin-left: 12px;
   font-size: 24px;
+}
+.width {
+  width: 473px;
+}
+.width p {
+  line-height: 168%;
+  margin-bottom: 15px;
+}
+#contact .background-blue {
+  padding: 50px 0;
+}
+.number {
+  font-size: 44px;
+  margin: inherit;
+  margin-bottom: 0 !important;
 }
