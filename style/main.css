@@ -123,21 +123,33 @@ table {
   border-spacing: 0;
 }
 
+/* TITRES et SOUS-TITRES */
+.title{
+  text-align: center;
+}
+.subtitle{
+  margin-top: 15px;
+  text-align: center;
+}
 
 /* SERVICES */
 .services{
   text-align: center;
-}
-.services p{
-  margin-top: 15px;
+  padding-top: 90px;
+  padding-bottom: 100px;
+  margin-top: 20px;
 }
 .content{
-  margin-top: 50px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   align-content: center;
+}
+.content p{
+  margin-top: 10px;
+  line-height: 30px;
 }
 .carteGauche{
   display: flex;
@@ -150,11 +162,12 @@ table {
 }
 .carte{
   border-radius: 10% 10%;
-  height: 200px;
-  width: 180px;
+  height: 250px;
+  width: 220px;
 }
 .carte img{
   margin-top: 20px;
+  margin-bottom: 30px;
 }
 .carte1{
   background: #FFFCF5;
@@ -171,15 +184,48 @@ table {
   margin-top: 10px;
 }
 .sectionServicesIllustration{
-  max-width: 300px;
+  max-width: 420px;
   margin-left: 50px;
 }
-=======
+
+/* TITRE DES CAS */
+.cas{
+  margin-top: 50px;
+  background: #F5F9FC;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.categorie{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cat2, .cat3, .cat4{
+  margin-left: 25px;
+}
+.cat1, .cat2, .cat3, .cat4{
+  background: #FFF;
+  border-bottom-right-radius: 10px 10px;
+  border-bottom-left-radius: 10px 10px;
+}
+.categorie img{
+	height: 200px;
+  width: 300px;
+}
+.categorie p, h5{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.categorie h5{
+  margin-bottom: 20px;
+}
+
 * {
-  font-family: 'Nunito Sans', sans-serif;
   box-sizing: border-box;
 }
 body {
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #ffffff;
 }
 h1,
