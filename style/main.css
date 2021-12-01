@@ -232,6 +232,42 @@ table {
 .categorie h5{
   margin-bottom: 20px;
 }
+
+/* CLIENTS-SAYS */
+.avis{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.avisDroit h2{
+  padding-top: 40px;
+}
+.textAvis{
+  padding:25px;
+  font-size: 24px;
+  margin-top: 50px;
+  margin-left: 100px;
+  border: 1px solid;
+  border-color: #9394a45f;
+  width: 600px;
+  line-height: 50px;
+}
+.avisDroit img{
+  border-radius: 50%;
+  margin-left: 160px;
+}
+.william{
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+.idWilliam, .jobWilliam{
+  margin-top: 10px;
+}
+
+/* GENERAL */
 * {
   box-sizing: border-box;
 }
