@@ -123,15 +123,14 @@ table {
   border-spacing: 0;
 }
 
-
 /* SERVICES */
-.services{
+.services {
   text-align: center;
 }
-.services p{
+.services p {
   margin-top: 15px;
 }
-.content{
+.content {
   margin-top: 50px;
   display: flex;
   flex-direction: row;
@@ -139,42 +138,41 @@ table {
   align-items: center;
   align-content: center;
 }
-.carteGauche{
+.carteGauche {
   display: flex;
   flex-direction: column;
 }
-.carteDroite{
+.carteDroite {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
 }
-.carte{
+.carte {
   border-radius: 10% 10%;
   height: 200px;
   width: 180px;
 }
-.carte img{
+.carte img {
   margin-top: 20px;
 }
-.carte1{
-  background: #FFFCF5;
+.carte1 {
+  background: #fffcf5;
 }
-.carte2{
-  background: #FFF7FC;
+.carte2 {
+  background: #fff7fc;
   margin-top: 10px;
 }
-.carte3{
-  background: #FFF8F5;
+.carte3 {
+  background: #fff8f5;
 }
-.carte4{
-  background: #F5F9FC;
+.carte4 {
+  background: #f5f9fc;
   margin-top: 10px;
 }
-.sectionServicesIllustration{
+.sectionServicesIllustration {
   max-width: 300px;
   margin-left: 50px;
 }
-=======
 * {
   box-sizing: border-box;
 }
@@ -225,6 +223,14 @@ a {
 .primary-color {
   color: #0b1460;
 }
+.background-indigo {
+  background-color: #0b1460;
+  background-image: url(/asset/home/backgroundPresentationScreen.png);
+  background-repeat: no-repeat;
+  padding: 128px 0;
+  background-position-y: 28%;
+  background-position-x: 28%;
+}
 .secondary-color {
   color: #2667ff;
 }
@@ -233,6 +239,9 @@ a {
 }
 .white {
   color: #ffffff;
+}
+.light-grey {
+  color: #b2bae8;
 }
 .yellow {
   color: #ffc600;
@@ -331,6 +340,13 @@ h5 {
   margin-left: 12px;
   font-size: 24px;
 }
+.width-presentation {
+  width: 428px;
+}
+.width-presentation > .d-flex {
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
 .width {
   width: 473px;
 }
@@ -338,11 +354,48 @@ h5 {
   line-height: 168%;
   margin-bottom: 15px;
 }
-#contact .background-blue {
+#contact .background-indigo {
   padding: 50px 0;
 }
 .number {
   font-size: 44px;
   margin: inherit;
   margin-bottom: 0 !important;
+}
+.background-presentation {
+  background-image: url(/asset/home/blueShapePresentationSection.png),
+    url(/asset/home/greenShapePresentationSection.png);
+  background-repeat: no-repeat;
+  background-position-y: 40px, 93%;
+  width: 538px;
+  flex-shrink: 0;
+  display: flex;
+}
+.transparent {
+  background-color: inherit;
+  color: white;
+  border: 1px solid #252c7a;
+}
+.fa-chart-bar {
+  font-size: 40px;
+}
+.presentation p.green {
+  margin: 16px 0 32px 0;
+  font-weight: 600;
+  font-size: 16px;
+}
+.presentation p {
+  line-height: 150%;
+  font-size: 20px;
+}
+.presentation p:last-child {
+  font-size: 16px;
+  margin-left: 20px;
+}
+.presentation h3 {
+  font-size: 44px;
+}
+.background-presentation img {
+  border-radius: 217px;
+  margin: 0 auto;
 }
