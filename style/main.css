@@ -122,12 +122,79 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
 
-/* TITRES et SOUS-TITRES */
-.title{
+/* GLOBAL CSS */
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #ffffff;
+  font-family: 'Nunito Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.d-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.align-start {
+  align-items: flex-start;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.column {
+  flex-direction: column;
+}
+.main-container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.primary-color {
+  color: #0b1460;
+}
+.secondary-color {
+  color: #2667ff;
+}
+.tertiary-color {
+  color: #707185;
+}
+.white {
+  color: #ffffff;
+}
+.light-grey {
+  color: #b2bae8;
+}
+.yellow {
+  color: #ffc600;
+}
+.green {
+  color: #07f6bd;
+}
+.title {
   text-align: center;
 }
-.subtitle{
+.t-center {
+  text-align: center;
+}
+.subtitle {
   margin-top: 15px;
   text-align: center;
 }
@@ -135,7 +202,6 @@ table {
 /* SERVICES */
 .services {
   text-align: center;
-
 }
 .services p {
   margin-top: 15px;
@@ -146,7 +212,7 @@ table {
   padding-bottom: 100px;
   margin-top: 20px;
 }
-.content{
+.content {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
@@ -155,11 +221,11 @@ table {
   align-content: center;
 }
 
-.content p{
+.content p {
   margin-top: 10px;
   line-height: 30px;
 }
-.carteGauche{
+.carteGauche {
   display: flex;
   flex-direction: column;
 }
@@ -195,57 +261,63 @@ table {
   max-width: 300px;
   margin-left: 50px;
 }
-.sectionServicesIllustration{
+.sectionServicesIllustration {
   max-width: 420px;
   margin-left: 50px;
 }
 
 /* TITRE DES CAS */
-.cas{
+.cas {
   margin-top: 50px;
-  background: #F5F9FC;
+  background: #f5f9fc;
   padding-top: 50px;
   padding-bottom: 100px;
 }
-.categorie{
+.categorie {
   margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.cat2, .cat3, .cat4{
+.cat2,
+.cat3,
+.cat4 {
   margin-left: 25px;
 }
-.cat1, .cat2, .cat3, .cat4{
-  background: #FFF;
+.cat1,
+.cat2,
+.cat3,
+.cat4 {
+  background: #fff;
   border-bottom-right-radius: 10px 10px;
   border-bottom-left-radius: 10px 10px;
 }
-.categorie img{
-	height: 200px;
+.categorie img {
+  height: 200px;
   width: 300px;
 }
-.categorie p, h5{
+.categorie p,
+h5 {
   margin-left: 20px;
   margin-top: 10px;
 }
-.categorie h5{
+.categorie h5 {
   margin-bottom: 20px;
 }
 
 /* CLIENTS-SAYS */
-.avis{
+.avis {
   padding-top: 100px;
   padding-bottom: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
-.avisDroit h2{
+.avisDroit h2 {
   padding-top: 40px;
 }
-.textAvis{
-  padding:25px;
+.textAvis {
+  padding: 25px;
   font-size: 24px;
   margin-top: 50px;
   margin-left: 100px;
@@ -254,71 +326,25 @@ table {
   width: 600px;
   line-height: 50px;
 }
-.avisDroit img{
+.avisDroit img {
   border-radius: 50%;
   margin-left: 160px;
 }
-.william{
+.william {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
 }
-.idWilliam, .jobWilliam{
+.idWilliam,
+.jobWilliam {
   margin-top: 10px;
 }
 
 /* GENERAL */
-* {
-  box-sizing: border-box;
-}
-body {
-  font-family: 'Nunito Sans', sans-serif;
-  background-color: #ffffff;
-  font-family: 'Nunito Sans', sans-serif;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: 'Quicksand', sans-serif;
-  font-weight: bold;
-}
 h4 {
   font-size: 24px;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-.d-flex {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.align-start {
-  align-items: flex-start;
-}
-.justify-start {
-  justify-content: flex-start;
-}
-.justify-center {
-  justify-content: center;
-}
-.column {
-  flex-direction: column;
-}
-.t-center {
-  text-align: center;
-}
-.main-container {
-  width: 1140px;
-  margin: 0 auto;
-}
-.primary-color {
-  color: #0b1460;
-}
+
 .background-indigo {
   background-color: #0b1460;
   background-image: url(/asset/home/backgroundPresentationScreen.png);
@@ -327,24 +353,7 @@ a {
   background-position-y: 28%;
   background-position-x: 28%;
 }
-.secondary-color {
-  color: #2667ff;
-}
-.tertiary-color {
-  color: #707185;
-}
-.white {
-  color: #ffffff;
-}
-.light-grey {
-  color: #b2bae8;
-}
-.yellow {
-  color: #ffc600;
-}
-.green {
-  color: #07f6bd;
-}
+
 select {
   width: 100%;
 }
