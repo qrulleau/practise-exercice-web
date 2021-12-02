@@ -201,7 +201,7 @@ a {
 
 /* SERVICES */
 .services {
-  text-align: center;
+  margin: 40px 0;
 }
 .services p {
   margin-top: 15px;
@@ -262,7 +262,7 @@ a {
   margin-left: 50px;
 }
 .sectionServicesIllustration {
-  max-width: 420px;
+  max-width: 480px;
   margin-left: 50px;
 }
 
@@ -435,6 +435,10 @@ h2 {
   font-size: 44px;
   line-height: 120%;
 }
+h1 {
+  font-size: 72px;
+  margin-top: 118px;
+}
 .lorem .green {
   margin: 20px 0 32px 0;
 }
@@ -503,4 +507,37 @@ h5 {
 .background-presentation img {
   border-radius: 217px;
   margin: 0 auto;
+}
+.landingPage .background-indigo {
+  background-image: inherit;
+  padding: 15px 0;
+}
+nav li {
+  display: inline;
+}
+nav ul li .active {
+  color: #2667ff;
+}
+nav ul li {
+  color: #252c7a;
+  margin-right: 24px;
+  font-size: 18px;
+  font-weight: 600;
+}
+nav ul li:last-child {
+  margin-right: 100px;
+}
+.background-landingPage {
+  background-image: url(/asset/home/img-slider.png),
+    url(/asset/home/bgslider.jpg);
+  background-repeat: no-repeat;
+  background-position-x: 100%, 0%;
+  background-position-y: 163%, 0%;
+  padding-top: 28px;
+}
+.landingPage .width p {
+  margin: 24px 0;
+}
+.landingPage .width button {
+  margin-bottom: 228px;
 }
