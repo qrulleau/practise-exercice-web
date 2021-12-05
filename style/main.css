@@ -541,3 +541,26 @@ nav ul li:last-child {
 .landingPage .width button {
   margin-bottom: 228px;
 }
+.article {
+  width: 320px;
+}
+.blog .subtitle {
+  margin: 40px 0 80px 0;
+}
+.article h3 {
+  font-size: 24px;
+}
+.article .justify-start {
+  margin: 20px 0 40px 0;
+}
+.article .justify-start i {
+  margin-right: 8px;
+}
+.article .description {
+  line-height: 150%;
+  margin: 24px 0;
+}
+.article button {
+  color: #0b1460;
+  background-color: #d9e0f4;
+}
