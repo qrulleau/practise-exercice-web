@@ -544,6 +544,9 @@ nav ul li:last-child {
 .article {
   width: 320px;
 }
+.blog {
+  padding: 140px 0;
+}
 .blog .subtitle {
   margin: 40px 0 80px 0;
 }
