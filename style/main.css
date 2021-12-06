@@ -223,7 +223,6 @@ a {
   align-items: center;
   align-content: center;
 }
-
 .content p {
   margin-top: 10px;
   line-height: 30px;
@@ -259,10 +258,6 @@ a {
 .carte4 {
   background: #f5f9fc;
   margin-top: 10px;
-}
-.sectionServicesIllustration {
-  max-width: 300px;
-  margin-left: 50px;
 }
 .sectionServicesIllustration {
   max-width: 480px;
@@ -317,34 +312,60 @@ h5 {
   justify-content: center;
 }
 .avisDroit{
-  padding-left: 100px;
+  padding-left: 80px;
 }
 .avisDroit h2 {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 .stAvis{
   margin-top: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 .textAvis {
-  padding: 40px;
+  padding: 30px;
   font-size: 20px;
   border: 1px solid;
   border-color: #9394a45f;
-  width: 550px;
+  width: 480px;
   line-height: 50px;
 }
 .avisDroit img {
   border-radius: 50%;
+  width: 50x;
+  height: 50px;
 }
 .william {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
   padding-left: 50px;
+  align-items: flex-end;
+  margin-bottom: 30px;
 }
 .infoWilliam {
-  padding: 10px;
+  padding-top: 5px;
+  padding-left: 15px;
+}
+.idWilliam{
+  display: flex;
+  flex-direction: column;
+}
+.listePuce{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 60px;
+}
+.puce{
+  background-color: #2667ff;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+.puceActive{
+  width: 12px;
+  height: 12px;
 }
 
 /* GENERAL */
