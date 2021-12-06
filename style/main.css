@@ -160,12 +160,20 @@ a {
 .justify-center {
   justify-content: center;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .column {
   flex-direction: column;
 }
 .main-container {
   width: 1140px;
   margin: 0 auto;
+}
+.small-container {
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 .primary-color {
   color: #0b1460;
@@ -194,8 +202,11 @@ a {
 .t-center {
   text-align: center;
 }
+.t-left {
+  text-align: left;
+}
 .subtitle {
-  margin-top: 15px;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -347,13 +358,14 @@ h4 {
 
 .background-indigo {
   background-color: #0b1460;
+}
+.presentation .background-indigo {
   background-image: url(/asset/home/backgroundPresentationScreen.png);
   background-repeat: no-repeat;
   padding: 128px 0;
   background-position-y: 28%;
   background-position-x: 28%;
 }
-
 select {
   width: 100%;
 }
@@ -386,6 +398,9 @@ select {
   background-color: #2667ff;
   background-image: url(/asset/home/bg-2.png);
   padding: 100px 0;
+}
+.background-grey {
+  background-color: #f0f4ff;
 }
 button {
   color: white;
@@ -508,9 +523,9 @@ h5 {
   border-radius: 217px;
   margin: 0 auto;
 }
-.landingPage .background-indigo {
-  background-image: inherit;
+.entete {
   padding: 15px 0;
+  background-image: inherit;
 }
 nav li {
   display: inline;
@@ -566,4 +581,79 @@ nav ul li:last-child {
 .article button {
   color: #0b1460;
   background-color: #d9e0f4;
+}
+.background-faq {
+  background-image: url(/asset/faq/bg-faq.png);
+  background-repeat: no-repeat;
+  padding: 100px 0 80px 0;
+}
+.d-none {
+  display: none;
+}
+.display-content {
+  display: block;
+  width: 100%;
+  border: 1px solid #e5eaf9;
+  background-color: #f0f4ff;
+  color: #1f2125;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+.content-faq {
+  margin: 24px 0px 40px 0;
+  text-align: left;
+  padding-left: 20px;
+  line-height: 175%;
+}
+.main-header {
+  background-image: url(/asset/faq/bg-pagetitle.png);
+  background-repeat: no-repeat;
+  background-position-y: -40px;
+  padding-top: 20px;
+}
+.main-header h1 {
+  margin-top: initial;
+}
+.indication {
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+.indication i {
+  margin: 0 8px;
+}
+.content-contact {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 68px 50px;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.background-grey input,
+.background-grey select {
+  display: block;
+  width: 360px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  margin-bottom: 16px;
+  padding: 20px;
+}
+.background-grey input::placeholder {
+  font-size: 18px;
+}
+.width-contact {
+  padding: 68px 40px;
+  margin-left: 44px;
+  border-radius: 8px;
+}
+.small-container .subtitle {
+  margin-bottom: 60px;
+}
+.small-title {
+  margin-bottom: 32px;
+}
+.background-grey button {
+  padding: 20px 0;
 }
