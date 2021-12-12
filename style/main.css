@@ -805,6 +805,9 @@ nav ul li:last-child {
   .services {
     padding: 60px 30px;
   }
+  .landingPage .width {
+    width: 100%;
+  }
 }
 @media screen and (max-width:495px){
   .content > .d-flex {
