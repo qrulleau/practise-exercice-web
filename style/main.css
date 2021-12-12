@@ -410,6 +410,8 @@ select {
 }
 .background-blue {
   background-color: #2667ff;
+}
+.contact-background {
   background-image: url(/asset/home/bg-2.png);
   padding: 100px 0;
 }
@@ -673,6 +675,135 @@ nav ul li:last-child {
 }
 .background-grey button {
   padding: 20px 0;
+}
+.company {
+  background-color: #fefefe;
+  position: relative;
+  padding-top: 260px;
+}
+.absolute {
+  position: absolute;
+  top: -12%;
+  left: 11.8%;
+}
+.company .main-container {
+  width: 1480px;
+}
+.company .main-container > .d-flex {
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.small-card {
+  background-color: white;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 10px;
+}
+.small-card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.small-card h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-service {
+  background-color: white;
+  padding: 30px;
+  width: 380px;
+  border-radius: 5px;
+}
+.card-service > .d-flex {
+  column-gap: 20px;
+}
+.card-service p {
+  line-height: 150%;
+  margin-top: 16px;
+}
+.work .main-container > .d-flex {
+  column-gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 30px;
+}
+.work {
+  background-image: url(../asset/presentation/background/bg-facts.png);
+  background-repeat: none;
+  padding: 100px 0 200px 0;
+}
+.work .white h3 {
+  margin: 30px 0 60px 0;
+}
+.work .main-container,
+.illustration .main-container {
+  width: 1200px;
+}
+.work .main-container {
+  margin-bottom: 140px;
+}
+.stats {
+  width: 1300px;
+  margin: 100px auto;
+  padding: 60px 60px;
+  border-radius: 10px;
+  background-image: url(../asset/presentation/background/bg-couter.png);
+  background-repeat: no-repeat;
+}
+.stats h3 {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-bottom: 12px;
+}
+.background {
+  position: relative;
+  z-index: 10;
+}
+.background .absolute-image img {
+  position: absolute;
+  z-index: 10;
+}
+.background .first img {
+  left: 90%;
+  top: 84%;
+  z-index: -10;
+}
+.background .second img {
+  right: 96%;
+  top: 1%;
+}
+.background .third img {
+  right: 87%;
+  top: 91%;
+}
+.background .fourth img {
+  left: 96%;
+  top: 5%;
+}
+.question .main-container {
+  width: 1200px;
+}
+.question .main-container > .d-flex {
+  flex-wrap: nowrap;
+  column-gap: 120px;
+}
+.question .secondary-color {
+  margin: 40px 0;
+  font-weight: 600;
+}
+.illustration .lorem {
+  margin: 40px 0 28px 0;
+}
+.illustration p {
+  line-height: 175%;
+}
+.illustration .fa-crop-alt {
+  font-size: 42px;
+  margin-right: 40px;
+}
+.illustration .test {
+  margin: 60px 0 40px 0;
 }
 @media screen and (max-width: 1360px) {
   .cas {
