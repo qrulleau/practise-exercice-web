@@ -11,6 +11,7 @@
   href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,600&family=Quicksand:wght@400;600&display=swap"
   rel="stylesheet"
   />
+  <link rel="stylesheet" href="style/hanburger.css" />
   <link rel="stylesheet" href="style/main.css" />
 </head>
 <body>
@@ -23,9 +24,9 @@
         <header>
           <div class="d-flex align-start">
             <div>
-              <img src="asset/header/logo.png" alt="">
+              <img src="asset/header/logo.png" alt="" />
             </div>
-            <div class="d-flex">
+            <div class="d-flex nav">
               <nav>
                 <ul>
                   <li><a href="#" class="active">Accueil</a></li>
@@ -39,11 +40,19 @@
                 </div>
               </button>
             </div>
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
           </div>
         </header>
         <div class="width">
           <h1 class="primary-color">Projet Integration Saint vincent</h1>
-          <p class="primary-color">Quis autem vel eum iure reprehenderit qui in ea voluplate velit esse quam nihil molestia consectetur</p>
+          <p class="primary-color">
+            Quis autem vel eum iure reprehenderit qui in ea voluplate velit
+            esse quam nihil molestia consectetur
+          </p>
           <button class="button" href="#">
             <div class="d-flex justify-center">
               Contact<i class="fas fa-arrow-right"></i>
@@ -87,64 +96,80 @@
   </section>
   
   <section class="services">
-    <h2 class="t-center primary-color"> Services </h2>
+    <h2 class="t-center primary-color">Services</h2>
     <p class="subtitle t-center secondary-color">
       Lorem ipsum dolor sit amet, consecetur adipiscing elit
     </p>
     <div class="content">
       <!-- 2 colonnes de 2 cartes chacune -->
-      <div class="carteGauche">
-        <div class="carte carte1 lorem t-center">
-          <img src="asset/home/lorem.png">
-          <h3 class="primary-color"> Lorem </h3>
-          <p class="tertiary-color"> Quis autem reprehenderit quiinea volup tate</p>
+      <div class="d-flex">
+        <div class="carteGauche">
+          <div class="carte carte1 lorem t-center">
+            <img src="asset/home/lorem.png" />
+            <h3 class="primary-color">Lorem</h3>
+            <p class="tertiary-color">
+              Quis autem reprehenderit quiinea volup tate
+            </p>
+          </div>
+          
+          <div class="carte carte2 dolor t-center">
+            <img src="asset/home/dolor.png" />
+            <h3 class="primary-color">Dolor</h3>
+            <p class="tertiary-color">
+              Quis autem reprehenderit quiinea volup tate
+            </p>
+          </div>
         </div>
         
-        <div class="carte carte2 dolor t-center">
-          <img src="asset/home/dolor.png">
-          <h3 class="primary-color"> Dolor </h3>
-          <p class="tertiary-color"> Quis autem reprehenderit quiinea volup tate</p>
-        </div>
-      </div>
-      
-      <div class="carteDroite">
-        <div class="carte carte3 ipsum t-center">
-          <img src="asset/home/ipsum.png">
-          <h3 class="primary-color"> Ipsum </h3>
-          <p class="tertiary-color"> Quis autem reprehenderit quiinea volup tate </p>
-        </div>
         
-        <div class="carte carte4 sitAmet t-center">
-          <img src="asset/home/sitAmet.png">
-          <h3 class="primary-color"> Sit Amet </h3>
-          <p class="tertiary-color"> Quis autem reprehenderit quiinea volup tate </p>
+        <div class="carteDroite">
+          <div class="carte carte3 ipsum t-center">
+            <img src="asset/home/ipsum.png" />
+            <h3 class="primary-color">Ipsum</h3>
+            <p class="tertiary-color">
+              Quis autem reprehenderit quiinea volup tate
+            </p>
+          </div>
+          
+          <div class="carte carte4 sitAmet t-center">
+            <img src="asset/home/sitAmet.png" />
+            <h3 class="primary-color">Sit Amet</h3>
+            <p class="tertiary-color">
+              Quis autem reprehenderit quiinea volup tate
+            </p>
+          </div>
         </div>
       </div>
       <!-- Illustration -->
-      <img class="sectionServicesIllustration" src="asset/home/sectionServicesIllustration.png">
+      <img
+      class="sectionServicesIllustration"
+      src="asset/home/sectionServicesIllustration.png"
+      />
     </div>
   </section>
   <section class="cas">
-    <h2 class="t-center primary-color"> Titre des cas</h2>
-    <p class="subtitle t-center secondary-color"> Lorem ipsum dolor sit amet, consecetur adipiscing elit</p>
+    <h2 class="t-center primary-color">Titre des cas</h2>
+    <p class="subtitle t-center secondary-color">
+      Lorem ipsum dolor sit amet, consecetur adipiscing elit
+    </p>
     <div class="categorie">
       <div class="cat1">
-        <img src="asset/home/cat1.jpg">
+        <img src="asset/home/cat1.jpg" />
         <p class="tertiary-color">Catégorie 1</p>
         <h5 class="primary-color">Lorem ipsum</h5>
       </div>
       <div class="cat2">
-        <img src="asset/home/cat2.jpg">
+        <img src="asset/home/cat2.jpg" />
         <p class="tertiary-color">Catégorie 2</p>
         <h5 class="primary-color">Lorem ipsum</h5>
       </div>
       <div class="cat3">
-        <img src="asset/home/cat3.jpg">
+        <img src="asset/home/cat3.jpg" />
         <p class="tertiary-color">Catégorie 3</p>
         <h5 class="primary-color">Lorem ipsum</h5>
       </div>
       <div class="cat4">
-        <img src="asset/home/cat4.jpg">
+        <img src="asset/home/cat4.jpg" />
         <p class="tertiary-color">Catégorie 4</p>
         <h5 class="primary-color">Lorem ipsum</h5>
       </div>
@@ -154,22 +179,23 @@
   <section class="clientSays">
     <div class="avis">
       <div class="avisGauche">
-        <img src="asset/home/ppAvis.jpg">
+        <img src="asset/home/ppAvis.jpg" />
       </div>
       <div class="avisDroit">
-        <h2 class="primary-color"> What's Clients Says </h2>
-        <p class="stAvis subtitle secondary-color ">
+        <h2 class="primary-color">What's Clients Says</h2>
+        <p class="stAvis subtitle secondary-color">
           Vestibulum ornare metus mauris, ac tempor dui congue eu
         </p>
         <p class="textAvis primary-color">
-          Quis autem vel eum iure reprehenderit quin voluplate velit esse quam molestia consequat dolorem eum fugiat voluptas nulla pariatutor empsum dolor amet consectetur adipiscing elitsed eiusmod temporincididunt laboret dolore magna aliquauis suspendisse
+          Quis autem vel eum iure reprehenderit quin voluplate velit esse quam
+          molestia consequat dolorem eum fugiat voluptas nulla pariatutor
+          empsum dolor amet consectetur adipiscing elitsed eiusmod
+          temporincididunt laboret dolore magna aliquauis suspendisse
         </p>
         <div class="william primary-color">
-          <img src="asset/home/ppWilliam.jpg">
+          <img src="asset/home/ppWilliam.jpg" />
           <div class="idWiiliam">
-            <h3 class="nameWilliam infoWilliam">
-              William P. Harris
-            </h3>
+            <h3 class="nameWilliam infoWilliam">William P. Harris</h3>
             <p class="jobWilliam infoWilliam secondary-color">
               Senior Manager
             </p>
@@ -234,17 +260,24 @@
   </section>
   <section class="blog">
     <h2 class="t-center primary-color">Latest Blog & News</h2>
-    <p class="subtitle t-center secondary-color">Donec hendrerit in odio ut volutpat</p>
+    <p class="subtitle t-center secondary-color">
+      Donec hendrerit in odio ut volutpat
+    </p>
     <div class="main-container">
       <div class="d-flex">
         <div class="article">
-          <h3 class="primary-color">Article sur un titre long sur 2 lignes</h3>
+          <h3 class="primary-color">
+            Article sur un titre long sur 2 lignes
+          </h3>
           <div class="d-flex justify-start">
             <i class="far fa-calendar-alt secondary-color"></i>
             <p class="primary-color">1er Janvier 2000</p>
           </div>
-          <img src="/asset/home/blog-01.jpg" alt="">
-          <p class="description">Sit amet consecte adipiscing eiusmod see tempor incididunt labore dolore</p>
+          <img src="/asset/home/blog-01.jpg" alt="" />
+          <p class="description">
+            Sit amet consecte adipiscing eiusmod see tempor incididunt labore
+            dolore
+          </p>
           <button class="button" href="#">
             <div class="d-flex">
               Lire la suite<i class="fas fa-arrow-right"></i>
@@ -252,13 +285,18 @@
           </button>
         </div>
         <div class="article">
-          <h3 class="primary-color">Article sur un titre long sur 2 lignes</h3>
+          <h3 class="primary-color">
+            Article sur un titre long sur 2 lignes
+          </h3>
           <div class="d-flex justify-start">
             <i class="far fa-calendar-alt secondary-color"></i>
             <p class="primary-color">1er Janvier 2000</p>
           </div>
-          <img src="/asset/home/blog-02.jpg" alt="">
-          <p class="description">Sit amet consecte adipiscing eiusmod see tempor incididunt labore dolore</p>
+          <img src="/asset/home/blog-02.jpg" alt="" />
+          <p class="description">
+            Sit amet consecte adipiscing eiusmod see tempor incididunt labore
+            dolore
+          </p>
           <button class="button" href="#">
             <div class="d-flex">
               Lire la suite<i class="fas fa-arrow-right"></i>
@@ -266,13 +304,18 @@
           </button>
         </div>
         <div class="article">
-          <h3 class="primary-color">Article sur un titre long sur 2 lignes</h3>
+          <h3 class="primary-color">
+            Article sur un titre long sur 2 lignes
+          </h3>
           <div class="d-flex justify-start">
             <i class="far fa-calendar-alt secondary-color"></i>
             <p class="primary-color">1er Janvier 2000</p>
           </div>
-          <img src="/asset/home/blog-01.jpg" alt="">
-          <p class="description">Sit amet consecte adipiscing eiusmod see tempor incididunt labore dolore</p>
+          <img src="/asset/home/blog-01.jpg" alt="" />
+          <p class="description">
+            Sit amet consecte adipiscing eiusmod see tempor incididunt labore
+            dolore
+          </p>
           <button class="button" href="#">
             <div class="d-flex">
               Lire la suite<i class="fas fa-arrow-right"></i>
@@ -311,42 +354,48 @@
   <footer>
     <div class="main-container">
       <div class="d-flex align-start">
-        <div>
-          <h4>Menu1</h4>
-          <p>Phone Number</p>
-          <div class="d-flex">
-            <i class="fas fa-phone-volume secondary-color"></i>
-            <p class="secondary-color mb-0">+33 12 23 45 56</p>
+        <div class="d-flex align-start">
+          <div>
+            <h4>Menu1</h4>
+            <p>Phone Number</p>
+            <div class="d-flex">
+              <i class="fas fa-phone-volume secondary-color"></i>
+              <p class="secondary-color mb-0">+33 12 23 45 56</p>
+            </div>
+          </div>
+          <div>
+            <h4>Menu2</h4>
+            <p class="tertiary-color">55 Queensberry Street, North VIC</p>
+            <p class="tertiary-color">3051, Autralia</p>
+            <p class="tertiary-color mb-0">support @qolleinfo.com</p>
           </div>
         </div>
-        <div>
-          <h4>Menu2</h4>
-          <p class="tertiary-color">55 Queensberry Street, North VIC</p>
-          <p class="tertiary-color">3051, Autralia</p>
-          <p class="tertiary-color mb-0">support @qolleinfo.com</p>
-        </div>
-        <div class="d-flex column">
-          <h4>Menu3</h4>
-          <a href="#" class="tertiary-color">Lien 1</a>
-          <a href="#" class="tertiary-color">Lien 2</a>
-          <a href="#" class="tertiary-color mb-0">Lien 3</a>
-        </div>
-        <div>
-          <h4>Menu4</h4>
-          <p class="tertiary-color">Dolor sit amet consectetur adipiscing</p>
-          
-          <div class="d-flex justify-start social">
-            <h5>Follow</h5>
-            <a class="mb-0" href=""
-            ><i class="fab fa-facebook-square secondary-color"></i
-              ></a>
+        <div class="d-flex align-start">
+          <div class="d-flex column">
+            <h4>Menu3</h4>
+            <a href="#" class="tertiary-color">Lien 1</a>
+            <a href="#" class="tertiary-color">Lien 2</a>
+            <a href="#" class="tertiary-color mb-0">Lien 3</a>
+          </div>
+          <div>
+            <h4>Menu4</h4>
+            <p class="tertiary-color">
+              Dolor sit amet consectetur adipiscing
+            </p>
+            
+            <div class="d-flex justify-start social">
+              <h5>Follow</h5>
               <a class="mb-0" href=""
-              ><i class="fab fa-twitter-square primary-color"></i
+              ><i class="fab fa-facebook-square secondary-color"></i
                 ></a>
-                <a class="mb-0" href=""><i class="fab fa-linkedin"></i></a>
                 <a class="mb-0" href=""
-                ><i class="fab fa-behance-square primary-color"></i
+                ><i class="fab fa-twitter-square primary-color"></i
                   ></a>
+                  <a class="mb-0" href=""><i class="fab fa-linkedin"></i></a>
+                  <a class="mb-0" href=""
+                  ><i class="fab fa-behance-square primary-color"></i
+                    ></a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -360,7 +409,6 @@
         src="https://kit.fontawesome.com/96626c594d.js"
         crossorigin="anonymous"
         ></script>
-        
       </body>
       </html>
       
