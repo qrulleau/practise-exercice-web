@@ -674,9 +674,38 @@ nav ul li:last-child {
 .background-grey button {
   padding: 20px 0;
 }
-@media screen and (max-width:1360px) {
+@media screen and (max-width: 1360px) {
   .cas {
-    padding: 50px 15px 100px 15px ;
+    padding: 50px 15px 100px 15px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .content-contact {
+    width: calc(100% - 15px);
+    padding: 30px;
+  }
+  .content-contact > .d-flex {
+    flex-direction: column;
+  }
+  .content-contact img,
+  .content-contact input,
+  .content-contact select {
+    width: 100%;
+  }
+  .content-contact .width-contact {
+    margin: 30px 0 0 0;
+    width: 100%;
+  }
+  .content-contact button {
+    width: initial;
+    padding: 20px;
+  }
+  .background-faq {
+    background-image: none;
+  }
+  .align {
+    display: flex;
+    justify-content: flex-start;
   }
 }
 @media screen and (max-width: 1170px) {
@@ -684,7 +713,7 @@ nav ul li:last-child {
     width: calc(100% - 30px);
   }
 }
-@media screen and (max-width:1110px) {
+@media screen and (max-width: 1110px) {
   .clientSays {
     padding: 0 15px;
   }
@@ -755,6 +784,11 @@ nav ul li:last-child {
     margin-right: 100px;
   }
 }
+@media screen and (max-width: 830px) {
+  .background-faq .small-container {
+    width: calc(100% - 30px);
+  }
+}
 @media screen and (min-width: 780px) {
   .hamburger {
     display: none;
@@ -809,7 +843,7 @@ nav ul li:last-child {
     width: 100%;
   }
 }
-@media screen and (max-width:495px){
+@media screen and (max-width: 495px) {
   .content > .d-flex {
     flex-direction: column;
   }
