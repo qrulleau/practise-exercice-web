@@ -465,7 +465,7 @@ footer .social h5 {
 .copyright {
   background-color: #f5f9fc;
   padding: 20px 0 20px 0;
-  margin: 20px 0 40px 0;
+  margin: 40px 0 40px 0;
 }
 h4 {
   margin-bottom: 24px;
@@ -794,6 +794,9 @@ nav ul li:last-child {
 .question .main-container {
   width: 1200px;
 }
+.question {
+  margin-bottom: 100px;
+}
 .question .main-container > .d-flex {
   flex-wrap: nowrap;
   column-gap: 120px;
@@ -965,7 +968,9 @@ nav ul li:last-child {
 }
 @media screen and (max-width: 998px) {
   footer .main-container > .d-flex {
-    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    row-gap: 60px;
   }
 }
 @media screen and (max-width: 954px) {
@@ -1070,6 +1075,11 @@ nav ul li:last-child {
     width: 100%;
   }
 }
+@media screen and (max-width: 580px) {
+  .background > img {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 509px) {
   .background-presentation img {
     width: 100%;
@@ -1088,6 +1098,9 @@ nav ul li:last-child {
   }
   .landingPage .width {
     width: 100%;
+  }
+  footer .main-container > .d-flex {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 495px) {
