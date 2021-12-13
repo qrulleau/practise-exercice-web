@@ -805,6 +805,9 @@ nav ul li:last-child {
   margin: 40px 0;
   font-weight: 600;
 }
+.question .display-content {
+  background-color: #fff;
+}
 .illustration .lorem {
   margin: 40px 0 28px 0;
 }
@@ -823,6 +826,14 @@ nav ul li:last-child {
 }
 .illustration .main-container > .d-flex {
   margin: 100px 0;
+}
+.button:hover i {
+  transform: translateX(6px);
+  transition: 500ms;
+}
+.selected {
+  background-color: #fff;
+  box-shadow: rgba(200, 195, 195, 0.35) 0px 8px 23px;
 }
 @media screen and (max-width: 1840px) {
   .absolute {
