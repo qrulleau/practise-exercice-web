@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,600&family=Quicksand:wght@400;600&display=swap"
       rel="stylesheet"
     />
+
+    <link rel="stylesheet" href="../style/hanburger.css" />
     <link rel="stylesheet" href="../style/main.css" />
   </head>
   <body>
@@ -23,12 +25,21 @@
           <div>
             <img src="../asset/header/logo.png" alt="" />
           </div>
-          <div class="d-flex">
+          <button class="hamburger hamburger--collapse" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          <div class="d-flex nav">
             <nav>
               <ul>
                 <li><a href="../index.html">Accueil</a></li>
-                <li><a href="presentation.html"> A propos</a></li>
-                <li><a href="#" class="active"> FAQ</a></li>
+                <li>
+                  <a href="presentation.html"> A propos</a>
+                </li>
+                <li>
+                  <a href="#" class="active"> FAQ</a>
+                </li>
               </ul>
             </nav>
             <button class="button" href="#">
@@ -38,8 +49,33 @@
             </button>
           </div>
         </div>
+        <div class="secondary-nav d-none">
+          <div class="d-flex">
+            <button class="active">
+              <div class="d-flex">
+                Home
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </button>
+            <button>
+              <div class="d-flex">
+                How it's works
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </button>
+            <button>About us</button>
+            <button>pricing</button>
+            <button>Blog</button>
+            <button>
+              <div class="d-flex">
+                Pages
+                <i class="fas fa-chevron-down"></i>
+              </div>
+            </button>
+          </div>
+        </div>
         <div class="d-flex indication">
-          <h1>Faq</h1>
+          <h1>FAQ</h1>
           <div class="d-flex">
             <p>Accueil</p>
             <i class="fas fa-arrow-right"></i>
