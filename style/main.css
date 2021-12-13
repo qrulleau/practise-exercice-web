@@ -454,6 +454,9 @@ footer p,
 footer a {
   margin-bottom: 16px;
 }
+footer .social h5 {
+  margin: 0;
+}
 .mb-0 {
   margin-bottom: 0;
 }
