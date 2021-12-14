@@ -834,6 +834,7 @@ nav ul li:last-child {
 .selected {
   background-color: #fff;
   box-shadow: rgba(200, 195, 195, 0.35) 0px 8px 23px;
+  opacity: 1;
 }
 @media screen and (max-width: 1840px) {
   .absolute {
@@ -982,6 +983,11 @@ nav ul li:last-child {
     flex-wrap: wrap;
     column-gap: 100px;
     row-gap: 60px;
+  }
+  .background-landingPage {
+    background-size: 700px 600px, 100% 100%;
+    background-position-y: 5 0%, 0%;
+    background-position-x: 355px, 0;
   }
 }
 @media screen and (max-width: 954px) {
